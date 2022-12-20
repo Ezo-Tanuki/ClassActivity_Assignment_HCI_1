@@ -1,6 +1,10 @@
 //Please put your answer here
 $( () => {
-    $("#close-modal").click(() => $("#signup-modal").fadeOut());
+    $("#close-modal").click(function() {
+        $("#signup-modal").fadeOut()
+    });
 
-    $(".signup-show").click(() => $("#signup-modal").fadeIn());
+    $(".signup-show").click(function() {
+        $("#signup-modal").fadeIn()
+    });
 })
